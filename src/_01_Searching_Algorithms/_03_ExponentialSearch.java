@@ -37,12 +37,12 @@ if(array[0]==value) {
 		//8. otherwise, set minimum equal to the length of the array minus 1.
 	
 		//9. use the binary search method you wrote using the following parameters:
-		//		the array to be searched
-		//		half of the counter
-		//		minimum
-		//		the value to be found
+		//		the array to be searched array
+		//		half of the counter counter/2
+		//		minimum- minimum
+		//		the value to be found- value
 		
 		//10. return the result
-//		return binarySearch(array, counter/2, minimum, value);
+return _01_BinarySearch.binarySearch(array, counter/2, minimum, value);
 	}
 }
