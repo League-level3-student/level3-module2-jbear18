@@ -7,8 +7,8 @@ import org.junit.Test;
 /**
  * Uncomment each test and then write the method to make it pass.
  * **/
-
-public class _00_MoreAndMoreTests {
+//
+//public class _00_MoreAndMoreTests {
 
 //	@Test
 //	  public void MultTest() {
@@ -17,7 +17,16 @@ public class _00_MoreAndMoreTests {
 //	    assertEquals("10 x 10 = 100", multiply(10, 10));
 //	    assertEquals("8 x 11 = 88", multiply(8, 11));
 //	  }
-//
+//	public String multiply(int a, int b) {
+//		String equation= "";
+//		equation += a;
+//		equation +=" x ";
+//		equation += b;
+//		equation += " = ";
+//		equation += a*b;
+//			return equation;
+//	}
+
 //	@Test
 //	  public void PrimeTest() {
 //
@@ -29,6 +38,13 @@ public class _00_MoreAndMoreTests {
 //	    assertFalse(isPrime(527));
 //
 //	  }
+//	public boolean isPrime(int num) {
+//		if(num%4 ==0) {
+//			return true;
+//		}
+//	
+//			return false;
+//	}
 //
 //	@Test
 //	  public void SquareTest() {
@@ -43,6 +59,9 @@ public class _00_MoreAndMoreTests {
 //	    assertFalse(isSquare(143));
 //
 //	  }
+//	public boolean isSquare(int a) {
+//		return false;
+//	}
 //
 //	@Test
 //	  public void CubeTest() {
@@ -56,7 +75,10 @@ public class _00_MoreAndMoreTests {
 //	    assertFalse(isCube(143));
 //
 //	  }
-
-
-
-}
+//	public boolean isCube(int a) {
+//		return false;
+//	}
+//
+//
+//
+//}
